@@ -6,7 +6,7 @@ A Finnish railway timetable application built with HTML, CSS, jQuery, Bootstrap 
 Add your Netlify URL here: **Live App:** https://traintrack-project3.netlify.app
 
 ## GitHub repository
-Add your repository URL here: `ADD_GITHUB_URL`
+Add your repository URL here: https://github.com/abishek20591008/TrainTrack-Project3.git
 
 ## Presentation video
 Add your video URL here after recording: `ADD_VIDEO_URL`
