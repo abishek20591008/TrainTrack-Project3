@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --navy: #102a43;
+  --blue: #1769aa;
+  --pale: #edf5fc;
+  --ink: #183247;
+}
+
+body {
+  min-height: 100vh;
+  background: #f4f7fb;
+  color: var(--ink);
+  font-family: "DM Sans", sans-serif;
+}
+
+.app-navbar { background: var(--navy); }
+.hero-panel {
+  color: #fff;
+  border-radius: 1.25rem;
+  background: linear-gradient(120deg, #123b61, #1769aa);
+  box-shadow: 0 1rem 2.5rem rgba(16, 42, 67, .12);
+}
+.eyebrow {
+  font-size: .72rem;
+  letter-spacing: .14em;
+  font-weight: 800;
+  opacity: .8;
+}
+.live-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: .55rem;
+  padding: .65rem .9rem;
+  border: 1px solid rgba(255,255,255,.3);
+  border-radius: 999px;
+  background: rgba(255,255,255,.1);
+  font-size: .85rem;
+}
+.live-dot {
+  width: .55rem;
+  height: .55rem;
+  display: inline-block;
+  border-radius: 50%;
+  background: #69e6a6;
+  box-shadow: 0 0 0 .25rem rgba(105,230,166,.16);
+}
+.search-card, .timetable-card { border-radius: 1rem; }
+.form-control, .form-select { border-color: #d7e1eb; }
+.form-control:focus, .form-select:focus {
+  border-color: #6ba6d8;
+  box-shadow: 0 0 0 .2rem rgba(23,105,170,.12);
+}
+.btn-primary { background: var(--blue); border-color: var(--blue); }
+.btn-primary:hover { background: #12588f; border-color: #12588f; }
+.timetable-card { overflow: hidden; }
+.train-item { padding: 1rem 1.25rem; }
+.train-time { min-width: 4.6rem; color: var(--navy); font-size: 1.15rem; font-weight: 800; }
+.train-destination { font-weight: 700; }
+.train-meta { color: #718096; font-size: .82rem; }
+.track-badge { background: var(--pale); color: #145b91; }
+.empty-state { padding: 2rem 1.25rem; color: #718096; text-align: center; }
+@media (max-width: 575.98px) {
+  .hero-panel { border-radius: .9rem; }
+  .hero-panel h1 { font-size: 2.1rem; }
+  .train-item { padding: .9rem; }
+}
